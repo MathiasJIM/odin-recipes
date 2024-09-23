@@ -1,6 +1,8 @@
 html {
+    margin: 400px, auto;
     background-color: beige;
     text-align: center;
+    text-decoration: none;
 }
 
 h1{
@@ -20,15 +22,29 @@ img {
 }
 
 ol{
+    display: inline-flex;
+    gap: 50px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
 }
 
 ul{
     font-size: 36px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
+
+.recipes {
+    display: inline-flex;
+    list-style: none;
+    gap: 30px;
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+}
 
